@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url("assets/fonts/Nunito.ttf");
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
